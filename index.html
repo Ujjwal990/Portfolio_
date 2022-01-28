@@ -16,32 +16,29 @@
         font-size: 30px;
         top: 10px;
         margin-top: 10px;
-    }
-
-    .iconss {
-        font-size: 50px;
-        color: white;
+        /* padding-left: 4px; */
     }
 
     .iconz {
         font-size: 70px;
         color: white;
+        text-shadow: 5px 2px rgb(196, 35, 35);
     }
 </style>
 
 <body>
     <div class="navbar">
-        <a href="#" class="leftalign"> Ujjwal Kumar</a>
+        <a href="index.html" class="leftalign"> Ujjwal Kumar</a>
 
         <ul class="rightalign">
-            <li><a href="#combinedalpha" class="homeicon"> <i class="material-icons icon " >home</i> Home</a></li>
-            <li><a href="#skillsalpha" class="skillsicon"> <i class="material-icons icon " >developer_mode</i>
+            <li><a href="#combinedalpha" class="homeicon"> <i class="material-icons icon ">home</i> Home</a></li>
+            <li><a href="#skillsalpha" class="skillsicon"> <i class="material-icons icon ">developer_mode</i>
                     Skills</a></li>
-            <li><a href="#hobbiesalpha" class="hobbiesicon"> <i class="material-icons icon " >fitness_center</i>
+            <li><a href="#hobbiesalpha" class="hobbiesicon"> <i class="material-icons icon ">fitness_center</i>
                     Hobbies</a></li>
         </ul>
     </div>
-    
+
     <div class="combined" id="combinedalpha">
         <div class="textbox">
             <h1 class="heading">
@@ -51,29 +48,35 @@
                 aperiam exercitationem, tempora culpa nulla dolores blanditiis cumque distinctio ipsam, officiis
                 impedit! Dolores similique eius sint neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Eaque molestias doloribus aliquid quas officiis fuga, soluta aperiam nobis ducimus commodi veniam
-                doloremque voluptatem omnis voluptatibus iste voluptates, non expedita? Cum! Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Excepturi nam officiis quos obcaecati, nisi odio cum eligendi accusamus
-                aut assumenda repudiandae adipisci impedit laborum aspernatur fugiat! Aperiam cum impedit neque.
+                doloremque voluptatem omnis voluptatibus iste voluptates, non expedita? Cum! ducimus commodi veniam
+                doloremque voluptatem omnis voluptatibus iste voluptates, non expedita? Cum!
 
             </div>
         </div>
 
         <div>
-            <img src="me-bgRemove.png" alt="Ujjwal's Photo" class="photo">
+            <img src="me-bgRemove.png" alt="Ujjwal's Photo" class="photo ">
         </div>
     </div>
 
     <!-- skills -->
     <div class="skills" id="skillsalpha">
         <h1 class="skillsHeading">Skills</h1>
-        <i class="material-icons iconss">html</i>
-        <progress max="100" value="90" class="skillItems">HTML</progress>
 
-        <i class="material-icons iconss">css</i>
-        <progress max="100" value="80" class="skillItems">CSS</progress>
+        <P class="field">HTML</P>
+        <progress max="100" value="90" class="skillItems"></progress>
 
-        <i class="material-icons iconss">javascript</i>
-        <progress max="100" value="60" class="skillItems">JAVASCRIPT</progress>
+        <P class="field">CSS</P>
+        <progress max="100" value="80" class="skillItems"></progress>
+
+        <P class="field">JAVASCRIPT</P>
+        <progress max="100" value="60" class="skillItems"></progress>
+
+        <P class="field">MONGODB</P>
+        <progress max="100" value="30" class="skillItems"></progress>
+
+        <P class="field">NODEJS</P>
+        <progress max="100" value="20" class="skillItems"></progress>
 
     </div>
 
@@ -83,7 +86,6 @@
     <div class="hobbies" id="hobbiesalpha">
         <div class="hobbiesHeading">
             Hobbies
-
         </div>
 
         <div class="combo">
@@ -113,6 +115,56 @@
             </div>
         </div>
     </div>
+
+    <!-- my footer  -->
+    <!-- ############################# -->
+
+
+    <div class="foot">
+        <div class="footheading">
+            Contact Me
+        </div>
+        <div class="cc">
+            <!-- this is left block -->
+            <div class="leftblock">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatum molestiae reprehenderit
+                nostrum similique iste corporis magni incidunt in minus. Soluta ut officia aut voluptatem distinctio
+                fuga unde neque! Corporis corrupti iure debitis nam deleniti, porro amet. Et aperiam cupiditate, quod
+                tempora consequuntur aliquid molestias eaque distinctio alias, error corrupti corporis modi maiores
+                reiciendis sequi perferendis eum veniam reprehenderit vitae? Nulla facilis dignissimos incidunt
+                voluptates quod at aperiam recusandae modi atque neque, totam nihil asperiores enim laborum soluta
+                mollitia quisquam sapiente animi accusantium autem officiis? Repudiandae pariatur at impedit atque.
+                Quasi molestiae id quisquam animi modi labore, dicta est aut!
+            </div>
+
+            <!-- This is right block -->
+            <div class="rightblock">
+                <div class="rightblocktext">Drop a message</div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field naam">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="fieldzz">
+                        <input type="text" placeholder="Subject" required class="fieldz">
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Something you want to share..."
+                            class="textareaz"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send message</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
 
 </body>
 <script src="javascript.js"></script>
