@@ -1,24 +1,24 @@
 
-let home = document.querySelector(".combined");
-let skills = document.querySelector(".skills");
-let hobbies = document.querySelector(".hobbies");
+let mybox1 = document.querySelector(".combined");
+let mybox2 = document.querySelector(".skills");
+let mybox3 = document.querySelector(".hobbies");
 
-
+ 
 document.querySelector(".homeicon").addEventListener("click", function(){
-    home.style.display = 'flex';
-    skills.style.display = 'none';
-    hobbies.style.display = 'none';
+    mybox1.style.display = 'flex';
+    mybox2.style.display = 'none';
+    mybox3.style.display = 'none';
 })
 
 document.querySelector(".skillsicon").addEventListener("click", function(){
-    home.style.display = 'none';
-    skills.style.display = 'flex';
-    hobbies.style.display = 'none';
+    mybox1.style.display = 'none';
+    mybox2.style.display = 'flex';
+    mybox3.style.display = 'none';
 })
 
 document.querySelector(".hobbiesicon").addEventListener("click", function(){
-    home.style.display = 'none';
-    skills.style.display = 'none';
-    hobbies.style.display = 'inline';
+    mybox1.style.display = 'none';
+    mybox2.style.display = 'none';
+    mybox3.style.display = 'inline';
 })
 
