@@ -88,7 +88,7 @@ li a{
     width: 95%;
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-direction: row;
 }
 .textbox{
@@ -97,12 +97,18 @@ li a{
     margin-top: 100px;
     text-align: center;
     font-size: 2rem;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+}
+.heading{
+    text-decoration: underline;
+
 }
 
 .smalltext{
     margin-top: 20px;
     text-align: left;
+    font-size: 3.5rem;
+    font-weight:100;
 }
 .photo{
     /* align-items:flex-end; */
@@ -123,7 +129,7 @@ li a{
     margin: auto;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     /* position: absolute; */
 }
 
@@ -140,7 +146,7 @@ li a{
 .field{
     color: white;
     font-size: xx-large;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: fit-content;
     margin-left: 3rem;
 }
@@ -155,7 +161,7 @@ li a{
 .hobbies{
     /* display: inline; */
     justify-content: space-evenly;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     font-weight: bold;
     width: 95%;
     text-align: center;
@@ -172,17 +178,17 @@ li a{
     -webkit-background-clip: text;
     
     font-size: 4rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 100px;
 }
 
 .mydiv{
     width: fit-content;
     margin: 10px 10px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .combo{
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -192,7 +198,7 @@ li a{
 /* footer decoration */
 
 .foot{
-    border: 2px solid rgb(250, 247, 247);
+    /* border: 2px solid rgb(250, 247, 247); */
     width: 95%;
     margin: auto;
 }
@@ -208,9 +214,9 @@ li a{
     
     font-size:4rem;
     font-weight: 800;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     margin: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     width: fit-content;
 }
 .cc{
@@ -219,28 +225,31 @@ li a{
 }
 
 .leftblock{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 50%;
     float: left;
     /* margin: 5px 5px; */
+    color: white;
     
 }
 form{
     outline: none;
 }
 .rightblock{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     float: right;
     /* margin: 5px 5px; */
 }
 
 .rightblocktext{
-    border: 1px solid ;
+    /* border: 1px solid white; */
     color: white;
     font-size: 2rem;
     width: fit-content;
     margin: auto;
+    border-bottom:2px solid white;
+
 }
 .fields{
     margin: 0;
@@ -319,4 +328,48 @@ input, textarea{
     /* background-color: indigo; */
 }
 
+.myaddressblock{
+    /* border: 1px solid blue; */
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    margin-left: 30px;
+
+}
+.myemailblock{
+    /* border: 1px solid blue; */
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    margin-left: 30px;
+}
+
+.blackboxicons{
+    font-size: 40px;
+    /* width: fit-content; */
+    color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 5rem;
+}
+.blackbox{
+    /* border: 2px solid red; */
+
+}
+.beta{
+    width: fit-content;
+    /* border: 1px solid rgb(0, 255, 234); */
+    text-decoration: none;
+    color: white;
+    font-size: 2.6rem;
+    /* margin-right: 10rem; */
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
 
